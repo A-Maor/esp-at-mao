@@ -7,5 +7,5 @@ jobs:
     uses: ./.github/workflows/build_template_esp32c3.yml
     with:
       module_name: ESP32C3-SPI
-      artifacts_name: esp32c3-spi-at
+      artifacts_name: esp32c3-spi-at 
     secrets: inherit
